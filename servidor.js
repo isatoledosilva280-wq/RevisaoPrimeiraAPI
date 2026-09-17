@@ -16,6 +16,9 @@ app.get("/", (req, res) => {
     })
 })
 
+app.get("/aluno",(req,res) =>{
+    res.json(ALUNO);
+})
 const PORTA = 3000;
 app.listen(PORTA, () => {
     console.log("Servidor iniciando sucesso");
