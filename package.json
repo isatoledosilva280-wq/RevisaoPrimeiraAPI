@@ -20,5 +20,6 @@
   "homepage": "https://github.com/isatoledosilva280-wq/RevisaoPrimeiraAPI#readme",
   "dependencies": {
     "express": "^5.2.1"
-  }
+  },
+  "devDependencies": {}
 }
